@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e5f9cef-f8f1-4a21-be8a-55c41f1201fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "danycenas"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:devops-mitocode/pruebas-unitarias.git",
+    "accountId": "51c6d9aa-9484-4ab0-97c7-ca1a9daf91d4"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2oS1ULLTxqEU6W34SumNabSAfcy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MedicamentoService.executor": "Run",
+    "JUnit.All in pruebas-unitarias.executor": "Run",
+    "JUnit.MascotaService01JUnit1Test.executor": "Run",
+    "JUnit.MascotaService01JUnit1Test.testRegistrarMascota.executor": "Run",
+    "JUnit.MascotaService01JUnit1Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService01JUnit1Test.testTrue.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.testBuscarMascotaPorIdExiste.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.testBuscarMascotaPorIdNoExiste.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.testEliminarMascotaPorIdNoExiste.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService01JUnit3LifeCycleTest.executor": "Run",
+    "JUnit.MascotaService01JUnit3LifeCycleTest.testC.executor": "Run",
+    "JUnit.MascotaService01JUnit3Test.executor": "Run",
+    "JUnit.MascotaService02HamcrestTest.executor": "Run",
+    "JUnit.MascotaService02HamcrestTest.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService03AssertJTest.executor": "Run",
+    "JUnit.MascotaService03AssertJTest.testRegistrarMascota.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture1Test.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture1Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture1Test.testRegistrarOtraMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture1Test.testVerificarEstadoServicioMutado.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture2Test.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture2Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture2Test.testRegistrarOtraMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture2Test.testVerificarEstadoServicioMutado.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito1Test.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockito1Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito2Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito3Test.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito3Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito4Test.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito4Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testEliminarMascota.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testEliminarMascotaLanzaExceptionCuandoNoExiste.executor": "Run",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietario.executor": "Run",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietarioTelefonoInvalido.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaCorrectamente.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinPropietario.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinRegistroMunicipal.executor": "Run",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinVacunas.executor": "Run",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaYaRegistrada.executor": "Run",
+    "JUnit.MedicamentoServiceTest.executor": "Run",
+    "Maven.pruebas-unitarias [clean,test...].executor": "Run",
+    "Maven.pruebas-unitarias [clean,test].executor": "Run",
+    "Maven.pruebas-unitarias [clean...].executor": "Run",
+    "Maven.pruebas-unitarias [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/mc/jt03/projects/pruebas-unitarias/src/test/resources",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mc\jt03\projects\pruebas-unitarias\src\test\resources" />
+      <recent name="D:\mc\jt03\projects\pruebas-unitarias\src\test\java\com\mycompany\app\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.app.service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test -Dtest=MascotaService01JUnit2Test" />
+      <command value="mvn clean test -Dtest=MascotaService01JUnit3LifeCycleTest" />
+      <command value="mvn clean test -Dtest=MascotaService01JUnit2Test#testRegistrarMascotaCorrectamente" />
+      <command value="mvn clean test -Dgroups=buscarMascotaPorId" />
+      <command value="mvn clean test -Dgroups=one,two" />
+      <command value="mvn clean test -Dtest=MascotaService01JUnit*" />
+      <command value="mvn clean surefire-report:report" />
+      <command value="mvn clean surefire-report:report-only" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MascotaService05JUnitMockitoCoverageTest">
+    <configuration name="MascotaService04JUnitFixture1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService04JUnitFixture1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MascotaService05JUnitMockito4Test.testRegistrarMascotaCorrectamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService05JUnitMockito4Test" />
+      <option name="METHOD_NAME" value="testRegistrarMascotaCorrectamente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MascotaService05JUnitMockitoCoverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService05JUnitMockitoCoverageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MascotaService05JUnitMockitoCoverageTest.testEliminarMascota" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService05JUnitMockitoCoverageTest" />
+      <option name="METHOD_NAME" value="testEliminarMascota" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService05JUnitMockitoCoverageTest" />
+      <option name="METHOD_NAME" value="testRegistrarMascotaConPropietario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="unittesting-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="unittesting-app" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MascotaService05JUnitMockitoCoverageTest" />
+        <item itemvalue="JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietario" />
+        <item itemvalue="JUnit.MascotaService05JUnitMockitoCoverageTest.testEliminarMascota" />
+        <item itemvalue="JUnit.MascotaService05JUnitMockito4Test.testRegistrarMascotaCorrectamente" />
+        <item itemvalue="JUnit.MascotaService04JUnitFixture1Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e5f9cef-f8f1-4a21-be8a-55c41f1201fa" name="Changes" comment="" />
+      <created>1730848180679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730848180679</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest_testRegistrarMascotaConNombreInvalido.ic" NAME="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido Coverage Results" MODIFIED="1731638230399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest_testRegistrarMascotaCorrectamente.ic" NAME="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaCorrectamente Coverage Results" MODIFIED="1731637687912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest_testRegistrarMascotaSinPropietario.ic" NAME="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinPropietario Coverage Results" MODIFIED="1731638342661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest.ic" NAME="MascotaService05JUnitMockitoCoverageTest Coverage Results" MODIFIED="1732062430841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockito1Test.ic" NAME="MascotaService05JUnitMockito1Test Coverage Results" MODIFIED="1731627253096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockito4Test_testRegistrarMascotaCorrectamente.ic" NAME="MascotaService05JUnitMockito4Test.testRegistrarMascotaCorrectamente Coverage Results" MODIFIED="1731637330596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest_testRegistrarMascotaConPropietarioTelefonoInvalido.ic" NAME="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietarioTelefonoInvalido Coverage Results" MODIFIED="1731638469953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest_testEliminarMascota.ic" NAME="MascotaService05JUnitMockitoCoverageTest.testEliminarMascota Coverage Results" MODIFIED="1731641259149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>
