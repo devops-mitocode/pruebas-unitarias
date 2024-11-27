@@ -21,7 +21,16 @@
                  junit 'target/surefire-reports/*.xml'
 
                  discoverReferenceBuild()
-                 recordCoverage(tools: [[parser: 'JACOCO']])
+//                  recordCoverage(tools: [[parser: 'JACOCO']])
+
+                recordCoverage(
+                    tools: [[parser: 'JACOCO']],
+                    sourceCodeRetention: 'EVERY_BUILD',
+                    qualityGates: [
+                        [threshold: 30.0, metric: 'LINE'],
+                        [threshold: 30.0, metric: 'BRANCH']
+                    ]
+                )
              }
          }
      }
