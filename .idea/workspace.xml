@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5f9cef-f8f1-4a21-be8a-55c41f1201fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4e5f9cef-f8f1-4a21-be8a-55c41f1201fa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,18 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "danycenas"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;danycenas&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:devops-mitocode/pruebas-unitarias.git",
-    "accountId": "51c6d9aa-9484-4ab0-97c7-ca1a9daf91d4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:devops-mitocode/pruebas-unitarias.git&quot;,
+    &quot;accountId&quot;: &quot;51c6d9aa-9484-4ab0-97c7-ca1a9daf91d4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -43,67 +41,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MedicamentoService.executor": "Run",
-    "JUnit.All in pruebas-unitarias.executor": "Run",
-    "JUnit.MascotaService01JUnit1Test.executor": "Run",
-    "JUnit.MascotaService01JUnit1Test.testRegistrarMascota.executor": "Run",
-    "JUnit.MascotaService01JUnit1Test.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService01JUnit1Test.testTrue.executor": "Run",
-    "JUnit.MascotaService01JUnit2Test.executor": "Run",
-    "JUnit.MascotaService01JUnit2Test.testBuscarMascotaPorIdExiste.executor": "Run",
-    "JUnit.MascotaService01JUnit2Test.testBuscarMascotaPorIdNoExiste.executor": "Run",
-    "JUnit.MascotaService01JUnit2Test.testEliminarMascotaPorIdNoExiste.executor": "Run",
-    "JUnit.MascotaService01JUnit2Test.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService01JUnit3LifeCycleTest.executor": "Run",
-    "JUnit.MascotaService01JUnit3LifeCycleTest.testC.executor": "Run",
-    "JUnit.MascotaService01JUnit3Test.executor": "Run",
-    "JUnit.MascotaService02HamcrestTest.executor": "Run",
-    "JUnit.MascotaService02HamcrestTest.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService03AssertJTest.executor": "Run",
-    "JUnit.MascotaService03AssertJTest.testRegistrarMascota.executor": "Run",
-    "JUnit.MascotaService04JUnitFixture1Test.executor": "Run",
-    "JUnit.MascotaService04JUnitFixture1Test.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService04JUnitFixture1Test.testRegistrarOtraMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService04JUnitFixture1Test.testVerificarEstadoServicioMutado.executor": "Run",
-    "JUnit.MascotaService04JUnitFixture2Test.executor": "Run",
-    "JUnit.MascotaService04JUnitFixture2Test.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService04JUnitFixture2Test.testRegistrarOtraMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService04JUnitFixture2Test.testVerificarEstadoServicioMutado.executor": "Run",
-    "JUnit.MascotaService05JUnitMockito1Test.executor": "Coverage",
-    "JUnit.MascotaService05JUnitMockito1Test.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService05JUnitMockito2Test.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService05JUnitMockito3Test.executor": "Run",
-    "JUnit.MascotaService05JUnitMockito3Test.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService05JUnitMockito4Test.executor": "Run",
-    "JUnit.MascotaService05JUnitMockito4Test.testRegistrarMascotaCorrectamente.executor": "Run",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.executor": "Coverage",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testEliminarMascota.executor": "Coverage",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testEliminarMascotaLanzaExceptionCuandoNoExiste.executor": "Run",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido.executor": "Coverage",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietario.executor": "Run",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietarioTelefonoInvalido.executor": "Coverage",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaCorrectamente.executor": "Coverage",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinPropietario.executor": "Coverage",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinRegistroMunicipal.executor": "Run",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinVacunas.executor": "Run",
-    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaYaRegistrada.executor": "Run",
-    "JUnit.MedicamentoServiceTest.executor": "Run",
-    "Maven.pruebas-unitarias [clean,test...].executor": "Run",
-    "Maven.pruebas-unitarias [clean,test].executor": "Run",
-    "Maven.pruebas-unitarias [clean...].executor": "Run",
-    "Maven.pruebas-unitarias [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/mc/jt03/projects/pruebas-unitarias/src/test/resources",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MedicamentoService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in pruebas-unitarias.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit1Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit1Test.testRegistrarMascota.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit1Test.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit1Test.testTrue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit2Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit2Test.testBuscarMascotaPorIdExiste.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit2Test.testBuscarMascotaPorIdNoExiste.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit2Test.testEliminarMascotaPorIdNoExiste.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit2Test.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit3LifeCycleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit3LifeCycleTest.testC.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService01JUnit3Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService02HamcrestTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService02HamcrestTest.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService03AssertJTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService03AssertJTest.testRegistrarMascota.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService04JUnitFixture1Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService04JUnitFixture1Test.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService04JUnitFixture1Test.testRegistrarOtraMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService04JUnitFixture1Test.testVerificarEstadoServicioMutado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService04JUnitFixture2Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService04JUnitFixture2Test.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService04JUnitFixture2Test.testRegistrarOtraMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService04JUnitFixture2Test.testVerificarEstadoServicioMutado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockito1Test.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MascotaService05JUnitMockito1Test.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockito2Test.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockito3Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockito3Test.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockito4Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockito4Test.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testEliminarMascota.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testEliminarMascotaLanzaExceptionCuandoNoExiste.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConPropietarioTelefonoInvalido.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaCorrectamente.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinPropietario.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinRegistroMunicipal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaSinVacunas.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaYaRegistrada.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MedicamentoServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pruebas-unitarias [clean,test...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pruebas-unitarias [clean,test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pruebas-unitarias [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pruebas-unitarias [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/mc/jt03/projects/pruebas-unitarias/src/test/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mc\jt03\projects\pruebas-unitarias\src\test\resources" />

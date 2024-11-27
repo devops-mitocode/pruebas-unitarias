@@ -5,11 +5,11 @@
         }
      }
      stages {
-         stage('Checkout SCM') {
-             steps {
-                 git branch: 'master', url: 'https://github.com/devops-mitocode/pruebas-unitarias.git'
-             }
-         }
+//          stage('Checkout SCM') {
+//              steps {
+//                  git branch: 'master', url: 'https://github.com/devops-mitocode/pruebas-unitarias.git'
+//              }
+//          }
          stage('Compile') {
              steps {
                  sh 'mvn clean compile -B -ntp'
