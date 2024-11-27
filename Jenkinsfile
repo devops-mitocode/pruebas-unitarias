@@ -1,42 +1,37 @@
- pipeline {
-     agent {
-        docker {
-            image 'maven:3.8.8-eclipse-temurin-17-alpine'
-        }
-     }
+pipeline {
+   agent {
+       docker {
+           image 'maven:3.8.8-eclipse-temurin-17-alpine'
+       }
+   }
 //     triggers {
-//         cron('* * * * *')
+// //         cron('* * * * *') // Ejecutar cada minuto
+// //         cron('*/2 * * * *') // Ejecutar cada 2 minutos
 //     }
-    parameters {
-        string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+   stages {
+       stage('Compile') {
+           steps {
+               sh 'mvn clean compile -B -ntp'
+           }
+       }
+       stage('Test') {
+           steps {
+               sh 'mvn test -Dtest=MascotaService05JUnitMockitoCoverageTest -B -ntp'
+//                 sh 'mvn test -Dtest=MascotaService05JUnitMockitoCoverageTest -Dmaven.test.failure.ignore=true -B -ntp'
+               junit 'target/surefire-reports/*.xml'
+//                 jacoco()
 
-        text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
 
-        booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Toggle this value')
+               // Crear vista con columna Delta, ejecutar sin cobertura completa 3 veces y Delta muestra n/a. Incluso activando la cobertura completa.
+//                 recordCoverage(tools: [[parser: 'JACOCO']])
 
-        choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
 
-        password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
-    }
-     stages {
-//          stage('Checkout SCM') {
-//              steps {
-//                  git branch: 'master', url: 'https://github.com/devops-mitocode/pruebas-unitarias.git'
-//              }
-//          }
-         stage('Compile') {
-             steps {
-                 sh 'mvn clean compile -B -ntp'
-             }
-         }
-         stage('Test') {
-             steps {
-                 sh 'mvn test -Dtest=MascotaService05JUnitMockitoCoverageTest -B -ntp'
-                 junit 'target/surefire-reports/*.xml'
+               // Agrega, ejecuta sin cobertura y luego con cobertura completa
+               discoverReferenceBuild()
+               recordCoverage(tools: [[parser: 'JACOCO']])
 
-                 discoverReferenceBuild()
-                 recordCoverage(tools: [[parser: 'JACOCO']])
 
+               // Limita al el porcentaje y si no se cumple el Build termina en UNSTABLE. Ejecutar inicialmente con 20 y luego cambia a 30 ambos valores
 //                 recordCoverage(
 //                     tools: [[parser: 'JACOCO']],
 //                     sourceCodeRetention: 'EVERY_BUILD',
@@ -46,6 +41,8 @@
 //                     ]
 //                 )
 
+
+               // Limita al el porcentaje y si no se cumple el Build termina en FAILURE
 //                 recordCoverage(
 //                     tools: [[parser: 'JACOCO']],
 //                     sourceCodeRetention: 'EVERY_BUILD',
@@ -55,8 +52,26 @@
 //                     ]
 //                 )
 
-             }
-         }
+
+               // Revisar para que sirve el baseline
+//                 discoverReferenceBuild()
+//                 recordCoverage(
+//                     tools: [[parser: 'JACOCO']],
+//                     sourceCodeRetention: 'EVERY_BUILD',
+//                     qualityGates: [
+//                         [threshold: 20.0, metric: 'LINE', baseline: 'PROJECT'],
+//                         [threshold: 20.0, metric: 'BRANCH', baseline: 'PROJECT']
+//                     ]
+//                 )
+
+
+           }
+       }
+       stage('Package') {
+           steps {
+               sh 'mvn package -DskipTests -B -ntp'
+           }
+       }
        stage('SonarQube') {
            steps {
                withSonarQubeEnv('sonarqube'){
@@ -66,10 +81,15 @@
        }
        stage("Quality Gate"){
            steps{
-               timeout(time: 60, unit: 'SECONDS') {
+               timeout(time: 1, unit: 'MINUTES') {
                    waitForQualityGate abortPipeline: true
                }
            }
        }
-     }
- }
+   }
+   post{
+       always{
+           cleanWs()
+       }
+   }
+}
