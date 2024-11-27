@@ -21,7 +21,7 @@
                  junit 'target/surefire-reports/*.xml'
 
                  discoverReferenceBuild()
-//                  recordCoverage(tools: [[parser: 'JACOCO']])
+                 recordCoverage(tools: [[parser: 'JACOCO']])
 
 //                 recordCoverage(
 //                     tools: [[parser: 'JACOCO']],
@@ -32,16 +32,23 @@
 //                     ]
 //                 )
 
-                recordCoverage(
-                    tools: [[parser: 'JACOCO']],
-                    sourceCodeRetention: 'EVERY_BUILD',
-                    qualityGates: [
-                            [threshold: 30.0, metric: 'LINE', criticality: 'FAILURE'],
-                            [threshold: 30.0, metric: 'BRANCH', criticality: 'FAILURE']
-                    ]
-                )
+//                 recordCoverage(
+//                     tools: [[parser: 'JACOCO']],
+//                     sourceCodeRetention: 'EVERY_BUILD',
+//                     qualityGates: [
+//                             [threshold: 30.0, metric: 'LINE', criticality: 'FAILURE'],
+//                             [threshold: 30.0, metric: 'BRANCH', criticality: 'FAILURE']
+//                     ]
+//                 )
 
              }
          }
+       stage('SonarQube') {
+           steps {
+               withSonarQubeEnv('sonarqube'){
+                   sh 'mvn sonar:sonar -B -ntp'
+               }
+           }
+       }
      }
  }
