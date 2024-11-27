@@ -4,6 +4,9 @@
             image 'maven:3.8.8-eclipse-temurin-17-alpine'
         }
      }
+    triggers {
+        cron('* * * * *')
+    }
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
 
