@@ -19,6 +19,8 @@
              steps {
                  sh 'mvn test -Dtest=MascotaService05JUnitMockitoCoverageTest -B -ntp'
                  junit 'target/surefire-reports/*.xml'
+
+                 discoverReferenceBuild()
                  recordCoverage(tools: [[parser: 'JACOCO']])
              }
          }
