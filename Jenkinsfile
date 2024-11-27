@@ -12,7 +12,7 @@
 //          }
          stage('Compile') {
              steps {
-                 echo 'hello world'
+                 echo 'hello world 2'
                  sh 'mvn clean compile -B -ntp'
              }
          }
