@@ -165,54 +165,54 @@ class MascotaService05JUnitMockitoCoverageTest {
         assertEquals("Esta mascota ya está registrada.",exception.getMessage());
     }
 
-//    @Test
-//    void testRegistrarMascotaConPropietario(){
-//        // Arrange(Preparar)
-//        Propietario propietario = new Propietario(1,"Dany", "Lima", "987654321");
-//        Mascota mascota = new Mascota();
-//        mascota.setNombre("Garfield");
-//        mascota.setPropietario(propietario);
-//
-//        when(externalService.validarVacunas(eq(mascota))).thenReturn(true);
-//        when(externalService.verificarRegistroMunicipal(eq(mascota))).thenReturn(true);
-//        when(mascotaRepository.findByName(mascota.getNombre())).thenReturn(Optional.empty());
-//        when(propietarioRepository.guardar(eq(propietario))).thenReturn(null);
-//
-//        // Act(Actuar)
-//        Exception exception = assertThrows(IllegalStateException.class, () -> mascotaService.registrarMascota(mascota));
-//
-//        // Assert(Afirmar)
-//        assertThat(exception, instanceOf(IllegalStateException.class));
-//        assertEquals("No se pudo guardar el propietario.", exception.getMessage());
-//    }
-//
-//    @Test
-//    void testEliminarMascota(){
-//        // Arrange(Preparar)
-//        Mascota mascota = new Mascota();
-//        mascota.setNombre("Garfield");
-//        when(mascotaRepository.findById(any(Integer.class))).thenReturn(Optional.of(mascota));
-//
-//        // Act(Actuar)
-//        mascotaService.eliminarMascotaPorId(1);
-//        when(mascotaRepository.findById(any(Integer.class))).thenReturn(Optional.empty());
-//        Optional<Mascota> result = mascotaService.buscarMascotaPorId(1);
-//
-//        // Assert(Afirmar)
-//        assertFalse(result.isPresent(),"La mascota debería haber sido eliminada");
-//    }
-//
-//    @Test
-//    void testEliminarMascotaLanzaExceptionCuandoNoExiste(){
-//        // Arrange(Preparar)
-//        int mascotaId = 666;
-//
-//        // Act(Actuar)
-//        when(mascotaRepository.findById(mascotaId)).thenReturn(Optional.empty());
-//        Exception exception = assertThrows(IllegalArgumentException.class, () -> mascotaService.eliminarMascotaPorId(mascotaId));
-//
-//        // Assert(Afirmar)
-//        assertEquals("No se puede eliminar: No se encontró mascota con el ID proporcionado.",exception.getMessage());
-//    }
+    @Test
+    void testRegistrarMascotaConPropietario(){
+        // Arrange(Preparar)
+        Propietario propietario = new Propietario(1,"Dany", "Lima", "987654321");
+        Mascota mascota = new Mascota();
+        mascota.setNombre("Garfield");
+        mascota.setPropietario(propietario);
+
+        when(externalService.validarVacunas(eq(mascota))).thenReturn(true);
+        when(externalService.verificarRegistroMunicipal(eq(mascota))).thenReturn(true);
+        when(mascotaRepository.findByName(mascota.getNombre())).thenReturn(Optional.empty());
+        when(propietarioRepository.guardar(eq(propietario))).thenReturn(null);
+
+        // Act(Actuar)
+        Exception exception = assertThrows(IllegalStateException.class, () -> mascotaService.registrarMascota(mascota));
+
+        // Assert(Afirmar)
+        assertThat(exception, instanceOf(IllegalStateException.class));
+        assertEquals("No se pudo guardar el propietario.", exception.getMessage());
+    }
+
+    @Test
+    void testEliminarMascota(){
+        // Arrange(Preparar)
+        Mascota mascota = new Mascota();
+        mascota.setNombre("Garfield");
+        when(mascotaRepository.findById(any(Integer.class))).thenReturn(Optional.of(mascota));
+
+        // Act(Actuar)
+        mascotaService.eliminarMascotaPorId(1);
+        when(mascotaRepository.findById(any(Integer.class))).thenReturn(Optional.empty());
+        Optional<Mascota> result = mascotaService.buscarMascotaPorId(1);
+
+        // Assert(Afirmar)
+        assertFalse(result.isPresent(),"La mascota debería haber sido eliminada");
+    }
+
+    @Test
+    void testEliminarMascotaLanzaExceptionCuandoNoExiste(){
+        // Arrange(Preparar)
+        int mascotaId = 666;
+
+        // Act(Actuar)
+        when(mascotaRepository.findById(mascotaId)).thenReturn(Optional.empty());
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> mascotaService.eliminarMascotaPorId(mascotaId));
+
+        // Assert(Afirmar)
+        assertEquals("No se puede eliminar: No se encontró mascota con el ID proporcionado.",exception.getMessage());
+    }
 
 }
