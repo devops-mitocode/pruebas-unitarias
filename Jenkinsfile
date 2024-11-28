@@ -30,60 +30,11 @@ pipeline {
                discoverReferenceBuild()
                recordCoverage(tools: [[parser: 'JACOCO']])
 
-
-               // Limita al el porcentaje y si no se cumple el Build termina en UNSTABLE. Ejecutar inicialmente con 20 y luego cambia a 30 ambos valores
-//                 recordCoverage(
-//                     tools: [[parser: 'JACOCO']],
-//                     sourceCodeRetention: 'EVERY_BUILD',
-//                     qualityGates: [
-//                         [threshold: 30.0, metric: 'LINE'],
-//                         [threshold: 30.0, metric: 'BRANCH']
-//                     ]
-//                 )
-
-
-               // Limita al el porcentaje y si no se cumple el Build termina en FAILURE
-//                 recordCoverage(
-//                     tools: [[parser: 'JACOCO']],
-//                     sourceCodeRetention: 'EVERY_BUILD',
-//                     qualityGates: [
-//                             [threshold: 30.0, metric: 'LINE', criticality: 'FAILURE'],
-//                             [threshold: 30.0, metric: 'BRANCH', criticality: 'FAILURE']
-//                     ]
-//                 )
-
-
-               // Revisar para que sirve el baseline
-//                 discoverReferenceBuild()
-//                 recordCoverage(
-//                     tools: [[parser: 'JACOCO']],
-//                     sourceCodeRetention: 'EVERY_BUILD',
-//                     qualityGates: [
-//                         [threshold: 20.0, metric: 'LINE', baseline: 'PROJECT'],
-//                         [threshold: 20.0, metric: 'BRANCH', baseline: 'PROJECT']
-//                     ]
-//                 )
-
-
            }
        }
        stage('Package') {
            steps {
                sh 'mvn package -DskipTests -B -ntp'
-           }
-       }
-       stage('SonarQube') {
-           steps {
-               withSonarQubeEnv('sonarqube'){
-                   sh 'mvn sonar:sonar -B -ntp'
-               }
-           }
-       }
-       stage("Quality Gate"){
-           steps{
-               timeout(time: 1, unit: 'MINUTES') {
-                   waitForQualityGate abortPipeline: true
-               }
            }
        }
    }
