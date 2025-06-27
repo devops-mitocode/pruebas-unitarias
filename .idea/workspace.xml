@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c900545f-b1ba-4a0d-bceb-d993a88460d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MedicamentoServiceJUnitAnnotationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/Revisar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/service/MascotaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/service/MascotaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService01JUnit1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService01JUnit1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService01JUnit2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService01JUnit2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService01JUnit3LifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService01JUnit3LifeCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService02HamcrestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService02HamcrestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService04JUnitFixture2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService04JUnitFixture2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockito1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockito1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockito2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockito2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockito3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockito3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockito4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockito4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockitoCoverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/service/MascotaService05JUnitMockitoCoverageTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2yeoz3uK37e6GmF7yZsFgWt7tt4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MascotaService01JUnit1Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.testBuscarMascotaPorId.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.testBuscarMascotaPorIdNoExiste.executor": "Run",
+    "JUnit.MascotaService01JUnit2Test.testEliminarMascotaPorIdNoExiste.executor": "Run",
+    "JUnit.MascotaService01JUnit3LifeCycleTest.executor": "Run",
+    "JUnit.MascotaService02HamcrestTest.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService03AssertJTest.testRegistrarMascota.executor": "Run",
+    "JUnit.MascotaService04JUnitFixture2Test.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito1Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito2Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito3Test.testRegistrarMascotaCorrectamente.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito4Test.executor": "Run",
+    "JUnit.MascotaService05JUnitMockito4Test.testRegistrarMascotaCorrectamente.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido (1).executor": "Run",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido.executor": "Coverage",
+    "JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaCorrectamente.executor": "Coverage",
+    "JUnit.MascotaService07JUnitMockitoSpyTest.testRegistrarMascotaCorrectamente.executor": "Run",
+    "Maven.pruebas-unitarias [clean,test...].executor": "Run",
+    "Maven.pruebas-unitarias [clean,test].executor": "Run",
+    "Maven.pruebas-unitarias [clean...].executor": "Run",
+    "Maven.pruebas-unitarias [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/mc/jt04/pruebas-unitarias",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test -Dtest=MascotaService05JUnitMockito4Test" />
+      <command value="mvn clean test -Dtest=MascotaService05JUnitMockito4Test#two" />
+      <command value="mvn clean test -Dtest=MascotaService05JUnitMockito4Test#testTagTwo}" />
+      <command value="mvn clean test -Dtest=MedicamentoServiceJUnitAnnotationsTest#testTagTwo" />
+      <command value="mvn clean test -Dgroups=two" />
+      <command value="mvn clean test -Dgroups=two,one" />
+      <command value="mvn clean surefire-report:report" />
+      <command value="mvn clean surefire-report:report -Dtest=MascotaService05JUnitMockito4Test" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MascotaService05JUnitMockitoCoverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService05JUnitMockitoCoverageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService05JUnitMockitoCoverageTest" />
+      <option name="METHOD_NAME" value="testRegistrarMascotaConNombreInvalido(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService05JUnitMockitoCoverageTest" />
+      <option name="METHOD_NAME" value="testRegistrarMascotaConNombreInvalido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaCorrectamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.MascotaService05JUnitMockitoCoverageTest" />
+      <option name="METHOD_NAME" value="testRegistrarMascotaCorrectamente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Revisar.testRegistrarMascotaCorrectamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.service.Revisar" />
+      <option name="METHOD_NAME" value="testRegistrarMascotaCorrectamente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Revisar.testRegistrarMascotaCorrectamente" />
+        <item itemvalue="JUnit.MascotaService05JUnitMockitoCoverageTest" />
+        <item itemvalue="JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido" />
+        <item itemvalue="JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaCorrectamente" />
+        <item itemvalue="JUnit.MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c900545f-b1ba-4a0d-bceb-d993a88460d0" name="Changes" comment="" />
+      <created>1750204658558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750204658558</updated>
+      <workItem from="1750204659808" duration="1178000" />
+      <workItem from="1750213387688" duration="4852000" />
+      <workItem from="1750363903677" duration="1328000" />
+      <workItem from="1750374814510" duration="14792000" />
+      <workItem from="1750817472009" duration="1235000" />
+      <workItem from="1750975858805" duration="327000" />
+      <workItem from="1750976321523" duration="12972000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest.ic" NAME="MascotaService05JUnitMockitoCoverageTest Coverage Results" MODIFIED="1750986119047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest_testRegistrarMascotaConNombreInvalido.ic" NAME="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaConNombreInvalido Coverage Results" MODIFIED="1750984969635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockito4Test_testRegistrarMascotaCorrectamente.ic" NAME="MascotaService05JUnitMockito4Test.testRegistrarMascotaCorrectamente Coverage Results" MODIFIED="1750983519144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pruebas_unitarias$MascotaService05JUnitMockitoCoverageTest_testRegistrarMascotaCorrectamente.ic" NAME="MascotaService05JUnitMockitoCoverageTest.testRegistrarMascotaCorrectamente Coverage Results" MODIFIED="1750984882889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.mycompany.app.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>
