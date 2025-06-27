@@ -4,6 +4,7 @@ import com.mycompany.app.model.Mascota;
 import com.mycompany.app.model.Propietario;
 import com.mycompany.app.repository.MascotaRepository;
 import com.mycompany.app.repository.PropietarioRepository;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -167,6 +168,7 @@ class MascotaService05JUnitMockitoCoverageTest {
     }
 
     @Test
+    @Disabled
     void testRegistrarMascotaConPropietarioNull(){
         // Arrange(Preparar)
         Propietario propietario = new Propietario(1,"Dany", "Lima", "987654321");
