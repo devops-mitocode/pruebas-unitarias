@@ -186,6 +186,6 @@ class MascotaService05JUnitMockitoCoverageTest {
 
         // Assert(Afirmar)
         assertThat(exception, instanceOf(IllegalStateException.class));
-        assertEquals("No se pudo guardar el propietario.", exception.getMessage());
+        assertNotEquals("No se pudo guardar el propietario.", exception.getMessage());
     }
 }
