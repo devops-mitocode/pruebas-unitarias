@@ -1,8 +1,13 @@
 pipeline {
-    agent any
-    tools{
-        maven 'maven3.9.10'
+//    agent any
+    agent {
+        docker {
+            image 'maven:3.9.10-eclipse-temurin-17'
+        }
     }
+//    tools{
+//        maven 'maven3.9.10'
+//    }
     options {
         timeout(time: 10, unit: 'MINUTES')
         ansiColor('xterm')
