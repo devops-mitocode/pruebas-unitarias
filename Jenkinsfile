@@ -7,11 +7,11 @@ pipeline {
         ansiColor('xterm')
     }
     stages {
-        stage('Checkout SCM') {
-            steps {
-                git branch: 'master', url: 'https://github.com/devops-mitocode/pruebas-unitarias.git'
-            }
-        }
+//        stage('Checkout SCM') {
+//            steps {
+//                git branch: 'master', url: 'https://github.com/devops-mitocode/pruebas-unitarias.git'
+//            }
+//        }
         stage('Unit Tests') {
             steps {
                 sh 'mvn clean test -Dstyle.color=always -Dtest=MascotaService05JUnitMockitoCoverageTest -B -ntp'
