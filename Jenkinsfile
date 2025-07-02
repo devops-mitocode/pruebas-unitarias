@@ -4,6 +4,7 @@ pipeline {
         maven 'maven3.9.10'
     }
     options {
+        timeout(time: 10, unit: 'MINUTES')
         ansiColor('xterm')
     }
     stages {
@@ -15,7 +16,6 @@ pipeline {
         stage('Unit Tests') {
             steps {
                 sh 'mvn clean test -Dstyle.color=always -Dtest=MascotaService05JUnitMockitoCoverageTest -Dmaven.test.failure.ignore=true -B -ntp'
-                sh 'sleep 2m'
             }
             post {
                 always {
