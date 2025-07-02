@@ -9,7 +9,7 @@ pipeline {
     }
     triggers {
         githubPush()
-        cron('* * * * *')
+        cron('H/30 * * * *')
     }
     stages {
 //        stage('Checkout SCM') {
@@ -38,6 +38,11 @@ pipeline {
                             sourceCodeRetention: 'EVERY_BUILD'
                     )
                 }
+            }
+        }
+        stage('Package') {
+            steps {
+                sh 'mvn clean package -Dstyle.color=always -B -ntp'
             }
         }
     }
