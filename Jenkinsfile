@@ -10,7 +10,7 @@ pipeline {
     stages {
 //        stage('Checkout SCM') {
 //            steps {
-//                git branch: 'master', url: 'https://github.com/devops-mitocode/pruebas-unitarias.git' xyz
+//                git branch: 'master', url: 'https://github.com/devops-mitocode/pruebas-unitarias.git'
 //            }
 //        }
         stage('Unit Tests') {
