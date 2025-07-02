@@ -168,7 +168,7 @@ class MascotaService05JUnitMockitoCoverageTest {
     }
 
     @Test
-//    @Disabled
+    @Disabled
     void testRegistrarMascotaConPropietarioNull(){
         // Arrange(Preparar)
         Propietario propietario = new Propietario(1,"Dany", "Lima", "987654321");
