@@ -44,6 +44,11 @@ pipeline {
             steps {
                 sh 'mvn clean package -DskipTests -Dstyle.color=always -B -ntp'
             }
+            post {
+                success {
+                    archiveArtifacts artifacts: 'target/*.jar'
+                }
+            }
         }
     }
 }
