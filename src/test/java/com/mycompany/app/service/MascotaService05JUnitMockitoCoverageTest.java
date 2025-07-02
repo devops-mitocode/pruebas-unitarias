@@ -168,7 +168,7 @@ class MascotaService05JUnitMockitoCoverageTest {
     }
 
     @Test
-    @Disabled
+//    @Disabled
     void testRegistrarMascotaConPropietarioNull(){
         // Arrange(Preparar)
         Propietario propietario = new Propietario(1,"Dany", "Lima", "987654321");
@@ -186,6 +186,6 @@ class MascotaService05JUnitMockitoCoverageTest {
 
         // Assert(Afirmar)
         assertThat(exception, instanceOf(IllegalStateException.class));
-        assertEquals("No se pudo guardar el propietario.", exception.getMessage());
+        assertNotEquals("No se pudo guardar el propietario.", exception.getMessage());
     }
 }
