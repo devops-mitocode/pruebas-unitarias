@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+    tools{
+        maven 'maven3.9.10'
+    }
+    options {
+        ansiColor('xterm')
+    }
+    stages {
+        stage('Checkout SCM') {
+            steps {
+                git branch: 'master', url: 'https://github.com/devops-mitocode/pruebas-unitarias.git'
+            }
+        }
+        stage('Unit Tests') {
+            steps {
+                sh 'mvn clean test -Dstyle.color=always -Dtest=MascotaService05JUnitMockitoCoverageTest -B -ntp'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
+            }
+        }
+        stage('Code Coverage') {
+            steps {
+                sh 'mvn jacoco:report -Dstyle.color=always -B -ntp'
+            }
+            post {
+                always {
+                    recordCoverage(
+                            tools: [[parser: 'JACOCO']],
+                            sourceCodeRetention: 'EVERY_BUILD'
+                    )
+                }
+            }
+        }
+    }
+}
